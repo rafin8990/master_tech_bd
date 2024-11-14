@@ -10,7 +10,7 @@ import { useRouter } from "next/router";
 
 function SignUp() {
   const router = useRouter();
-  const [createUserWithEmailAndPassword, user, loading, error] =
+  const [createUserWithEmailAndPassword] =
     useCreateUserWithEmailAndPassword(auth);
   const {
     register,

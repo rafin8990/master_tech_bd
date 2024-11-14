@@ -12,7 +12,7 @@ import { signIn } from "next-auth/react";
 
 function LoginPage() {
   const router = useRouter();
-  const [signInWithEmailAndPassword, user, loading, error] =
+  const [signInWithEmailAndPassword, user] =
     useSignInWithEmailAndPassword(auth);
   const {
     register,
