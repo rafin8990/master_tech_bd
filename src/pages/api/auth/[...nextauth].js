@@ -9,8 +9,8 @@ export const authOptions = {
       clientSecret: process.env.GITHUB_SECRET,
     }),
     GoogleProvider({
-      clientId: process.env.GOOGLE_LOGIN_ID,
-      clientSecret: process.env.GOOGLE_LOGIN_SECRET,
+      clientId: "163271381504-8morf8sbm29r2bbsupkp6dnaajrh3rhh.apps.googleusercontent.com",
+      clientSecret: "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",
     }),
   ],
   pages: {
